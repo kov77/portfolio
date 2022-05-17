@@ -1,0 +1,18 @@
+.btn {
+    background-color: #fec544;
+    color: #070d1b;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    font-weight: 500;
+    padding: 12px 1.5em;
+    border-radius: 50px;
+    min-width: 170px;
+    border: none;
+    outline: none;
+    transition: all 0.4s ease;
+    text-transform: capitalize;
+}

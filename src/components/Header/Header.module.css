@@ -1,0 +1,115 @@
+.headerWrp {
+    position: relative;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 150;
+    width: 100%;
+    background-color: rgba(3, 12, 27, 0.7);
+    display: flex;
+    justify-content: center;
+}
+.container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 80px;
+    padding: 20px;
+}
+.headerLogoWrp {
+    display: flex;
+}
+
+.headerLogo {
+    font-weight: bold;
+    color: #FDC544;
+    border: 3px solid white;
+    border-radius: 100%;
+    font-size: 28px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.headerLogoName {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.headerLogoSpan{
+    color: #FDC544;
+}
+
+.headerUlWrp {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNavItem {
+    ont-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.headerNavItemActive {
+    color: #FDC544;
+}
+
+.headerNavItem:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s;
+}
+
+.headerNavItem:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #FDC544;
+    position: absolute;
+    left: 0; bottom: -5px;
+    transform: scaleX(0);
+
+    transform-origin: right;
+    transition: transform 0.4s;
+}
+
+.navDevider {
+    color: white;
+
+}
+
+.phoneWrap {
+    display: flex;
+    position: relative;
+}
+
+.phoneIcon {
+    position: absolute;
+    left: -23px;
+    bottom: 1px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.phone {
+    text-decoration: none;
+    color: #FDC544;
+    font-weight: bold;
+}

@@ -1,0 +1,119 @@
+.mySkillsWrp {
+    width: 100%;
+    color: #a9adb8;
+    background-color: #0a101e;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 1140px;
+    display: flex;
+}
+
+.textBlock {
+    padding: 15px;
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+.header {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #fdfeff;
+    line-height: 1.2em;
+
+}
+
+.text {
+    text-align: left;
+    color: #a9adb8;
+    background-color: #0a101e;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.skillsWrp {
+    margin-left: 30px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.progressbar {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.progressbarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.progressbarTitle {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #fdfeff;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.progressbarPercentage {
+    color: #fec544;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.progressbarSt {
+    width: 100%;
+    height: 2px;
+    background-color: #3f4551;
+}
+
+.progressbarPercentageReact {
+    width: 85%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageRedax {
+    width: 80%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageJs {
+    width: 80%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageHtml {
+    width: 75%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageCss {
+    width: 75%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageGit {
+    width: 85%;
+    background-color: #fec544;
+    height: 2px;
+}
+
+
+

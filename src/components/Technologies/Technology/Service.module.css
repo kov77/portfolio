@@ -1,0 +1,57 @@
+.serviceWrp {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+    border: 1px solid #232935;
+    background-color: #101624;
+    color: #a9adb8;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    width: 30%;
+    height: 350px;
+    margin: 15px;
+}
+
+.serviceWrp:hover > div {
+    color: #FDC544;
+}
+.serviceWrp:hover > h2 {
+    color: #FDC544;
+}
+
+.serviceIcon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border: 0.5px solid #3f4551;
+    border-radius: 50%;
+    background-color: #070d1b;
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 28px;
+    transition: all 0.4s ease;
+}
+
+
+.serviceHeader {
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 20px;
+    margin-bottom: 16px;
+    transition: all 0.4s ease;
+    clear: both;
+    color: #fdfeff;
+    padding: 0;
+}
+
+.serviceDescr {
+    text-align: center;
+}
+

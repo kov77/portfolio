@@ -1,0 +1,82 @@
+.aboutWrp {
+    margin: 0;
+    min-height: 740px;
+    width: 100%;
+    color: #a9adb8;
+    background-color: #030409;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.height100 {
+    height: 100px;
+    width: 100%;
+}
+
+.height25 {
+    height: 25px;
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aboutInfoBlock {
+    width: 550px;
+}
+
+.aboutHeader {
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: #fdfeff;
+    line-height: 1.2em;
+    clear: both;
+}
+
+.aboutSubheader {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fec544;
+    margin-bottom: 18px;
+    clear: both;
+    line-height: 1.2em;
+}
+
+.aboutDescr{
+    color: #a9adb8;
+    /*background-color: #0a101e;*/
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: 18px;
+}
+.aboutList {
+   box-sizing: border-box;
+    list-style: none;
+    margin-bottom: 45px;
+    padding: 0;
+    color: #a9adb8;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.aboutList > li {
+    margin-bottom: 10px;
+}
