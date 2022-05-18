@@ -3,7 +3,7 @@ import {SectionTitle} from "../SectionTitle/SectionTitle";
 
 
 export const MySkills = () => {
-    return <section className={classes.mySkillsWrp}>
+    return <section id={"skills"} className={classes.mySkillsWrp}>
         <div className={classes.height100}></div>
         <SectionTitle title={"My Skills"} />
        <div className={classes.container}>

@@ -4,7 +4,7 @@ import {Button} from "../Button/Button";
 import secondPhoto from "../../assets/images/main_photo4.jpg"
 
 export const About = () => {
-    return <section className={classes.aboutWrp}>
+    return <section id={"about"} className={classes.aboutWrp}>
         <div className={classes.height100}></div>
         <SectionTitle title={"About Me"}/>
         <div className={classes.height25}></div>

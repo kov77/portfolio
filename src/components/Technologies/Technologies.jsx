@@ -9,7 +9,7 @@ import {SiCss3} from "react-icons/si"
 import {SiGit} from "react-icons/si"
 
 export const Technologies = () => {
-    return <section className={classes.servicesWrp}>
+    return <section id={"technologies"} className={classes.servicesWrp}>
         <div className={classes.height100}></div>
         <SectionTitle title={"Technologies"} />
        <div className={classes.container}>

@@ -8,7 +8,7 @@ import portfolio4 from "../../assets/images/portfolio4.png"
 
 
 export const Portfolio = () => {
-    return <section className={classes.portfolioWrp}>
+    return <section id="portfolio" className={classes.portfolioWrp}>
         <SectionTitle title={"Portfolio"} />
        <div className={classes.container}>
         <Project img={portfolio1} title={'Website'} subtitle={"RanSmart"}/>

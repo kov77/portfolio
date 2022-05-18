@@ -7,15 +7,15 @@ export const Header = () => {
                <div className={classes.headerLogo}>M</div>
                <div className={classes.headerLogoName}><span className={classes.headerLogoSpan}>K</span>oval</div>
            </div>
-           <nav className={classes.headerNavWrp}>
+           <div className={classes.headerNavWrp}>
                <ul className={classes.headerUlWrp}>
-                   <li className={classes.headerNavItem}><a href="#"></a>Home</li>
-                   <li className={classes.headerNavItem}><a href="#"></a>About</li>
-                   <li className={classes.headerNavItem}><a href="#"></a>Resume</li>
-                   <li className={classes.headerNavItem}><a href="#"></a>Portfolio</li>
-                   <li className={classes.headerNavItem}><a href="#"></a>Contact</li>
+                   <li className={classes.headerNavItem}><a href="#main"></a>Home</li>
+                   <li className={classes.headerNavItem}><a href="#about"></a>About</li>
+                   <li className={classes.headerNavItem}><a href="#technologies"></a>Resume</li>
+                   <li className={classes.headerNavItem}><a href="#portfolio"></a>Portfolio</li>
+                   <li className={classes.headerNavItem}><a href="#contact"></a>Contact</li>
                </ul>
-           </nav>
+           </div>
            <div className={classes.navDevider}>|</div>
            <div className={classes.phoneWrap}>
                <img className={classes.phoneIcon} src={phoneInon} alt="phoneLogo"/>

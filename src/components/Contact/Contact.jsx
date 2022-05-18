@@ -10,7 +10,7 @@ import {FaMapMarkerAlt} from "react-icons/fa"
 
 
 export const Contact = () => {
-    return <section className={classes.ContactWrp}>
+    return <section id={"contact"} className={classes.ContactWrp}>
         <div className={classes.height50}></div>
         <SectionTitle title={"Contact Me"}/>
         <div className={classes.container}>

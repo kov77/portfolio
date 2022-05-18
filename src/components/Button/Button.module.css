@@ -15,4 +15,5 @@
     outline: none;
     transition: all 0.4s ease;
     text-transform: capitalize;
+    cursor: pointer;
 }

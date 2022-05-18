@@ -5,7 +5,7 @@ import {BsFacebook, BsLinkedin} from "react-icons/bs";
 import {AiFillInstagram} from "react-icons/ai";
 
 export const MainSection = () => {
-    return <div className={classes.mainSection}>
+    return <section id={"main"} className={classes.mainSection}>
         <div className={classes.stars}>
         </div>
         <div className={classes.twinkling}></div>
@@ -45,5 +45,5 @@ export const MainSection = () => {
         </div>
 
 
-    </div>
+    </section>
 }
