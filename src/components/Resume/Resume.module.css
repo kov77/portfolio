@@ -21,6 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .resumeBlock {
@@ -82,13 +83,18 @@
     .icon {
         display: none;
     }
+    .container {
+        margin: 0;
+    }
     .header {
         display: block;
         font-weight: 600;
         text-align: center;
         margin: 0 auto;
     }
+
     .elementsWrp {
+        width: 100%;
         padding: 10px 5px 10px 5px;
         margin: 0;
         border: none;
