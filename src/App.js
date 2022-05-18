@@ -4,6 +4,9 @@ import {MainSection} from "./components/MainSection/MainSection";
 import {About} from "./components/About/About";
 import {Technologies} from "./components/Technologies/Technologies";
 import {MySkills} from "./components/MySkills/MySkills";
+import {Resume} from "./components/Resume/Resume";
+import {Portfolio} from "./components/Portfolio/Portfolio";
+import {Contact} from "./components/Contact/Contact";
 
 function App() {
     return (
@@ -13,6 +16,9 @@ function App() {
             <About/>
             <Technologies />
             <MySkills />
+            <Resume />
+            <Portfolio />
+            <Contact />
         </div>
     );
 }

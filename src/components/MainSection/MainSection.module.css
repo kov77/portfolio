@@ -69,14 +69,96 @@
     border: 1px solid #232935;
     border-right: 0;
     border-radius: 50px 0 0 50px;
-    height: 40px;
-    width: 224px;
+    height: 60px;
+    width: 280px;
     display: flex;
     align-items: center;
     bottom: 30px;
     padding-left: 12px;
     z-index: 150;
-    left: -237px;
+    left: -293px;
+}
+
+.socialLinks {
+    display: flex;
+}
+
+.socialSubtitle {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    position: absolute;
+    height: 60px;
+    width: 130px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(18%);
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(20, 21, 23, 0.4);
+    margin-top: 42px;
+    visibility: visible;
+}
+
+.socialText {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+
+}
+
+.socialLink {
+    width: 50px;
+    border-radius: 50px;
+    background-color: #070d1b;
+    border: 0.5px solid #3f4551;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.socialLink:hover {
+    width: 130px;
+    padding-right: 15px;
+}
+
+.socialLink:hover > .socialIconWrp > *{
+    color: #FDC544;
+}
+
+
+.socialIconWrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #a9adb8;
+}
+
+.socialIcon {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.socialIconName {
+    font-weight: 600;
+    color: #fdfeff;
+    max-width: 0;
+    transition: all 0.5s ease;
+    visibility: hidden;
+}
+
+.socialLink:hover  .socialIconName {
+    visibility: visible;
 }
 
 .arrowDown {

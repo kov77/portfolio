@@ -115,5 +115,11 @@
     height: 2px;
 }
 
+.progressbarPercentageTs {
+    width: 75%;
+    background-color: #fec544;
+    height: 2px;
+}
+
 
 

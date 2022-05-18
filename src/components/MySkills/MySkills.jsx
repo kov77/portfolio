@@ -39,7 +39,17 @@ export const MySkills = () => {
                </div>
                <div className={classes.progressbar}>
                    <div className={classes.progressbarHeader}>
-                       <h3 className={classes.progressbarTitle}>Javascript</h3>
+                       <h3 className={classes.progressbarTitle}>TypeScript</h3>
+                       <div className={classes.progressbarPercentage}>75%
+                       </div>
+                   </div>
+                   <div className={classes.progressbarSt}>
+                       <div className={classes.progressbarPercentageTs}></div>
+                   </div>
+               </div>
+               <div className={classes.progressbar}>
+                   <div className={classes.progressbarHeader}>
+                       <h3 className={classes.progressbarTitle}>JavaScript</h3>
                        <div className={classes.progressbarPercentage}>80%
                        </div>
                    </div>

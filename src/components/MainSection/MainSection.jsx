@@ -1,6 +1,8 @@
 import classes from './MainSection.module.css'
 import mainPhoto from "../../assets/images/secondPhoto2.jpg"
 import {Button} from "../Button/Button";
+import {BsFacebook, BsLinkedin} from "react-icons/bs";
+import {AiFillInstagram} from "react-icons/ai";
 
 export const MainSection = () => {
     return <div className={classes.mainSection}>
@@ -17,9 +19,21 @@ export const MainSection = () => {
                 </div>
                 <div className={classes.mainPhotoWrp}><img src={mainPhoto} alt="main-photo"/>
                     <div className={classes.mainSocial}>
-                        <span><a href="#"></a><img src="" alt=""/>LinkedIn</span>
-                        <span><a href="#"></a><img src="" alt=""/>Facebook</span>
-                        <span><a href="#"></a><img src="" alt=""/>GitHub</span>
+                        <div className={classes.socialLinks}>
+                            <a className={classes.socialLink} href="https://www.facebook.com/maksim.koval.77/">
+                                <span className={classes.socialIconWrp}><BsFacebook className={classes.socialIcon}/></span>
+                                <span className={classes.socialIconName}>Facebook</span>
+                            </a>
+                            <a className={classes.socialLink} href="https://www.instagram.com/_max.koval/">
+                                <span className={classes.socialIconWrp}><AiFillInstagram className={classes.socialIcon}/></span>
+                                <span className={classes.socialIconName}>Instagram</span>
+                            </a>
+                            <a className={classes.socialLink} href="https://www.linkedin.com/company/linkedin">
+                                <span className={classes.socialIconWrp}><BsLinkedin className={classes.socialIcon}/></span>
+                                <span className={classes.socialIconName}>LinkedIn</span>
+                            </a>
+                        </div>
+                        <h2 className={classes.socialSubtitle}>Social</h2>
                     </div>
                 </div>
             </div>

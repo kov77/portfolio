@@ -1,0 +1,60 @@
+.resumeWrp {
+    box-sizing: border-box;
+    width: 100%;
+    color: #a9adb8;
+    background-color: #0a101e;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 30px;
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.resumeBlock {
+    box-sizing: border-box;
+    width: 50%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: revert;
+}
+
+.headingWpr {
+    display: flex;
+}
+
+.header {
+    margin: 0;
+    margin-left: 30px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fdfeff;
+    line-height: 1.2em;
+}
+
+.elementsWrp{
+    width: 92%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    margin-left: 20px;
+    border-left: 1px solid #232935;
+}
+
+.height100 {
+    width: 100%;
+    height: 100px;
+}
