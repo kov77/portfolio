@@ -55,3 +55,41 @@
     line-height: 1.6em;
 }
 
+@media screen and (max-width: 1439px){
+    .title {
+        font-size: 20px;
+    }
+    .period {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    .place {
+        margin-top: 10px;
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .text {
+        display: none;
+    }
+    .container {
+        margin-top: 20px;
+        border: 1px solid #FDC544;
+        padding: 10px;
+    }
+    .container::before {
+        display: none;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .period {
+        font-size: 15px;
+    }
+
+}

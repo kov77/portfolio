@@ -113,3 +113,17 @@
     color: #FDC544;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1023px){
+    .navDevider, .phoneWrap {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .headerNavWrp {
+        display: none;
+    }
+}

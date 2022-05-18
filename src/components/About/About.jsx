@@ -16,10 +16,8 @@ export const About = () => {
                     <h2 className={classes.aboutHeader}>Hi There! I'm Maksym Koval</h2>
                     <h4 className={classes.aboutSubheader}>Front-End Developer</h4>
                 </div>
-                <div>
-                    <p className={classes.aboutDescr}>
+                <div className={classes.aboutDescr}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam aliquid architecto atque beatae blanditiis culpa debitis eius ex expedita natus nemo nihil sint soluta, sunt suscipit voluptatibus? Est, fugit?
-                    </p>
                 </div>
                 <ul className={classes.aboutList}>
                     <li><span>Birthday</span> : <span>October 24, 1990</span></li>

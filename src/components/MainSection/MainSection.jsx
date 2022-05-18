@@ -20,15 +20,15 @@ export const MainSection = () => {
                 <div className={classes.mainPhotoWrp}><img src={mainPhoto} alt="main-photo"/>
                     <div className={classes.mainSocial}>
                         <div className={classes.socialLinks}>
-                            <a className={classes.socialLink} href="https://www.facebook.com/maksim.koval.77/">
+                            <a className={classes.socialLink} target={"_blank"} href="https://www.facebook.com/maksim.koval.77/">
                                 <span className={classes.socialIconWrp}><BsFacebook className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>Facebook</span>
                             </a>
-                            <a className={classes.socialLink} href="https://www.instagram.com/_max.koval/">
+                            <a className={classes.socialLink} target={"_blank"} href="https://www.instagram.com/_max.koval/">
                                 <span className={classes.socialIconWrp}><AiFillInstagram className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>Instagram</span>
                             </a>
-                            <a className={classes.socialLink} href="https://www.linkedin.com/company/linkedin">
+                            <a className={classes.socialLink} target={"_blank"} href="https://www.linkedin.com/company/linkedin">
                                 <span className={classes.socialIconWrp}><BsLinkedin className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>LinkedIn</span>
                             </a>

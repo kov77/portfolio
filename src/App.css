@@ -6,5 +6,9 @@
     align-items: start;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 
 

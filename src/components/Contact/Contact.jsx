@@ -76,5 +76,6 @@ export const Contact = () => {
             </div>
         </div>
         <div className={classes.height100}></div>
+        <div className={classes.privacy}>© 2022. Developed by Maksym Koval. All right reserved.</div>
     </section>
 }

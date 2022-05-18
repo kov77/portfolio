@@ -1,4 +1,5 @@
 .mySkillsWrp {
+    box-sizing: border-box;
     width: 100%;
     color: #a9adb8;
     background-color: #0a101e;
@@ -119,6 +120,20 @@
     width: 75%;
     background-color: #fec544;
     height: 2px;
+}
+
+@media screen and (max-width: 1439px){
+    .mySkillsWrp {padding: 10px 30px 10px 20px}
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .mySkillsWrp {
+        display: none;
+    }
 }
 
 

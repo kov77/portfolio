@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 
 }
 
@@ -130,7 +131,7 @@
 }
 
 .socialLink {
-    width: 130px;
+    width: 100%;
     padding-right: 15px;
     margin-right: 20px;
     border-radius: 50px;
@@ -141,6 +142,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .socialLink:hover {
@@ -173,6 +175,79 @@
     color: #fdfeff;
     max-width: 0;
     transition: all 0.5s ease;
+}
+.privacy {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1439px){
+    .container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .height100 {
+        display: none;
+    }
+    .header {
+        font-size: 28px;
+    }
+    .formElem {
+        margin-bottom: 10px;
+    }
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+    .info {
+        margin: 10px 0;
+    }
+    .infoDetails > h4 {
+        font-size: 18px;
+    }
+    .socialText {
+        font-size: 18px;
+    }
+    .socialLink {
+        padding: 0;
+        width: inherit;
+        border-radius: 50px;
+        opacity: 0.9;
+        /*border: 1px solid #FDC544;*/
+    }
+    .socialIconName {
+        display: none;
+    }
+    .socialIcon {
+        color: #FDC544;
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .infoBlock {
+        display: none;
+    }
+    .formBlock {
+        width: 100%;
+    }
+    .header {
+        text-align: center;
+    }
+    .formElem {
+        width: 100%;
+    }
+    .form > button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .privacy {
+        font-size: 12px;
+    }
 }
 
 
