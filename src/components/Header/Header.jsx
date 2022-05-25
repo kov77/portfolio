@@ -8,6 +8,11 @@ export const Header = () => {
                <div className={classes.headerLogoName}><span className={classes.headerLogoSpan}>K</span>oval</div>
            </div>
            <div className={classes.headerNavWrp}>
+               <input className={classes.menuToggle} onClick={(e) => console.log("clicked")} type="checkbox"/>
+               <label className={classes.menuBtn} htmlFor={classes.menuToggle}>
+                   <span></span>
+               </label>
+
                <ul className={classes.headerUlWrp}>
                    <li className={classes.headerNavItem}><a href="#main"></a>Home</li>
                    <li className={classes.headerNavItem}><a href="#about"></a>About</li>

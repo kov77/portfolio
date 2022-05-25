@@ -11,7 +11,6 @@ import {FaMapMarkerAlt} from "react-icons/fa"
 
 export const Contact = () => {
     return <section id={"contact"} className={classes.ContactWrp}>
-        <div className={classes.height50}></div>
         <SectionTitle title={"Contact Me"}/>
         <div className={classes.container}>
             <div className={classes.formBlock}>
@@ -26,6 +25,23 @@ export const Contact = () => {
                     <div className={classes.formElem}><textarea cols={30} rows={10} id={"msg"} name={"msg"}
                                                                 placeholder={"Your Message"} required/></div>
                     <Button text={"Send Message"} type={"submit"} id={"submit"} name={"submit"}/>
+                    <div className={classes.socialInfo2}>
+                        <div className={classes.socialText2}>Visite my social profile and get connected</div>
+                        <div className={classes.socialLinks}>
+                            <a className={classes.socialLink} href="https://www.facebook.com/maksim.koval.77/">
+                                <span className={classes.socialIconWrp}><BsFacebook className={classes.socialIcon}/></span>
+                                <span className={classes.socialIconName}>Facebook</span>
+                            </a>
+                            <a className={classes.socialLink} href="https://www.instagram.com/_max.koval/">
+                                <span className={classes.socialIconWrp}><AiFillInstagram className={classes.socialIcon}/></span>
+                                <span className={classes.socialIconName}>Instagram</span>
+                            </a>
+                            <a className={classes.socialLink} href="https://www.linkedin.com/company/linkedin">
+                                <span className={classes.socialIconWrp}><BsLinkedin className={classes.socialIcon}/></span>
+                                <span className={classes.socialIconName}>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
                 </form>
             </div>
             <div className={classes.infoBlock}>
@@ -75,7 +91,6 @@ export const Contact = () => {
                 </div>
             </div>
         </div>
-        <div className={classes.height100}></div>
         <div className={classes.privacy}>© 2022. Developed by Maksym Koval. All right reserved.</div>
     </section>
 }

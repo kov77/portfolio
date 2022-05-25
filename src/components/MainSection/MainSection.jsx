@@ -16,6 +16,19 @@ export const MainSection = () => {
                     <h1 className={classes.name}>Maksym <br/>Koval</h1>
                     <div className={classes.jobtitle}>Front-End Developer</div>
                     <Button text={'Contact Me'} />
+                    <div className={classes.socialInfo2}>
+                        <div className={classes.socialLinks2}>
+                            <a className={classes.socialLink2} href="https://www.facebook.com/maksim.koval.77/">
+                                <span className={classes.socialIconWrp2}><BsFacebook className={classes.socialIcon2}/></span>
+                            </a>
+                            <a className={classes.socialLink2} href="https://www.instagram.com/_max.koval/">
+                                <span className={classes.socialIconWrp2}><AiFillInstagram className={classes.socialIcon2}/></span>
+                            </a>
+                            <a className={classes.socialLink2} href="https://www.linkedin.com/company/linkedin">
+                                <span className={classes.socialIconWrp2}><BsLinkedin className={classes.socialIcon2}/></span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div className={classes.mainPhotoWrp}><img src={mainPhoto} alt="main-photo"/>
                     <div className={classes.mainSocial}>
@@ -37,6 +50,7 @@ export const MainSection = () => {
                     </div>
                 </div>
             </div>
+
             <div className={classes.arrowDown}>
                 <span></span>
                 <span></span>

@@ -4,7 +4,6 @@ import {SectionTitle} from "../SectionTitle/SectionTitle";
 
 export const MySkills = () => {
     return <section id={"skills"} className={classes.mySkillsWrp}>
-        <div className={classes.height100}></div>
         <SectionTitle title={"My Skills"} />
        <div className={classes.container}>
            <div className={classes.textBlock}>
@@ -90,6 +89,5 @@ export const MySkills = () => {
 
            </div>
        </div>
-        <div className={classes.height100}></div>
     </section>
 }

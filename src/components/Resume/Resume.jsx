@@ -7,7 +7,6 @@ import edIcon from "./../../assets/images/icons/resume-icon2.png"
 
 export const Resume = () => {
     return <section className={classes.resumeWrp}>
-        <div className={classes.height100}></div>
         <SectionTitle title={"Resume"}/>
         <div className={classes.container}>
             <div className={classes.resumeBlock}>
@@ -44,6 +43,5 @@ export const Resume = () => {
                 </div>
             </div>
         </div>
-        <div className={classes.height100}></div>
     </section>
 }

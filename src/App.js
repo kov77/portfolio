@@ -7,18 +7,21 @@ import {MySkills} from "./components/MySkills/MySkills";
 import {Resume} from "./components/Resume/Resume";
 import {Portfolio} from "./components/Portfolio/Portfolio";
 import {Contact} from "./components/Contact/Contact";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <MainSection/>
-            <About/>
-            <Technologies />
-            <MySkills />
-            <Resume />
-            <Portfolio />
-            <Contact />
+            <BrowserRouter>
+                <Header/>
+                <MainSection/>
+                <About/>
+                <Technologies />
+                <MySkills />
+                <Resume />
+                <Portfolio />
+                <Contact />
+            </BrowserRouter>
         </div>
     );
 }

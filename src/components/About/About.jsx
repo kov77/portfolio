@@ -5,10 +5,7 @@ import secondPhoto from "../../assets/images/main_photo4.jpg"
 
 export const About = () => {
     return <section id={"about"} className={classes.aboutWrp}>
-        <div className={classes.height100}></div>
         <SectionTitle title={"About Me"}/>
-        <div className={classes.height25}></div>
-
         <div className={classes.container}>
             <div className={classes.aboutPhoto}><img src={secondPhoto} alt="second-foto"/></div>
             <div className={classes.aboutInfoBlock}>
@@ -29,9 +26,6 @@ export const About = () => {
                 </ul>
                 <Button text={'Download CV'} />
             </div>
-
-
         </div>
-        <div className={classes.height100}></div>
     </section>
 }

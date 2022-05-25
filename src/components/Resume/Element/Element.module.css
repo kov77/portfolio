@@ -86,10 +86,27 @@
         display: none;
     }
     .title {
-        font-size: 18px;
+        font-size: 17px;
     }
     .period {
+        font-size: 13px;
+    }
+    .place {
         font-size: 15px;
     }
 
+}
+@media screen and (max-width: 374px) {
+    .container {
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .period {
+        font-size: 11px;
+    }
+    .place {
+        font-size: 13px;
+    }
 }

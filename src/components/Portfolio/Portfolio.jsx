@@ -18,6 +18,5 @@ export const Portfolio = () => {
         <Project img={portfolio1}/>
         <Project img={portfolio2}/>
        </div>
-        <div className={classes.height100}></div>
     </section>
 }
