@@ -1,11 +1,12 @@
 .mainSection {
     box-sizing: border-box;
-    min-height: 868px;
+    height: calc(100vh - 80px);
     width: 100%;
 }
 
 .container {
-    margin-top: 200px;
+    padding-top: 200px;
+    height: calc(100vh - 80px);
     width: 1140px;
     z-index: 200;
     display: flex;
@@ -326,8 +327,8 @@
     }
     .mainSocial {
         height: 45px;
-        width: 210px;
-        left: -223px;
+        width: 230px;
+        left: -230px;
     }
     .socialSubtitle {
         height: 20px;

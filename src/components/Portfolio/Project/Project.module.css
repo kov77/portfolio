@@ -3,7 +3,7 @@
     border-radius: 3px;
     transition: all 0.4s ease;
     border: 1px solid #232935;
-    background-color: #101624;
+    /*background-color: #101624;*/
     color: #a9adb8;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -12,6 +12,7 @@
     width: 30%;
     height: 350px;
     margin: 15px;
+    z-index: 4;
 }
 
 
@@ -34,7 +35,7 @@
 }
 
 .container:hover::before {
-    opacity: 0.8;
+    opacity: 0;
 }
 
 
@@ -46,7 +47,7 @@
     top: 0;
     left: 0;
     background-color: #3f4551;
-    opacity: 0;
+    opacity: 0.8;
     transition: all 0.4s ease;
     z-index: 1;
 }
@@ -76,10 +77,11 @@
     transition: all 0.4s ease;
     z-index: 500;
     text-align: center;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
     box-sizing: border-box;
 }
+
 
 .container::after {
     content: "";
@@ -89,30 +91,30 @@
     height: 90%;
     top: 50%;
     left: 50%;
-    opacity: 0;
+    opacity: 1;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
 
 .container:hover::after {
-    opacity: 1;
+    opacity: 0;
 }
 
-.icon {
-    border: 10px solid #FDC544;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fec544;
-    color: #151b29;
-    font-size: 26px;
-    opacity: .8;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-}
+/*.icon {*/
+/*    border: 10px solid #FDC544;*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*    border-radius: 50%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background: #fec544;*/
+/*    color: #151b29;*/
+/*    font-size: 26px;*/
+/*    opacity: .8;*/
+/*    font-family: 'Font Awesome 5 Free';*/
+/*    font-weight: 900;*/
+/*}*/
 
 .header {
     margin-top: 10px;
@@ -128,6 +130,13 @@
     line-height: 1.2;
 }
 
+.textWrp {
+    margin-bottom: 25px;
+}
+
+.container:hover .textWrp {
+    visibility: hidden;
+}
 .subtitle {
     margin-top: 15px;
     font-size: 18px;
@@ -138,6 +147,7 @@
     transform: translateX(-50%);
     font-weight: 500;
     font-family: "Roboto";
+    color: darkgrey;
 }
 
 @media screen and (max-width: 1439px){

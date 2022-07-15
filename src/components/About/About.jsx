@@ -14,8 +14,7 @@ export const About = () => {
                     <h4 className={classes.aboutSubheader}>Front-End Developer</h4>
                 </div>
                 <div className={classes.aboutDescr}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam aliquid architecto atque beatae blanditiis culpa debitis eius ex expedita natus nemo nihil sint soluta, sunt suscipit voluptatibus? Est, fugit?
-                </div>
+                    Web developer with a passion for web application development. Experienced in the development, support and maintenance of web applications. Results oriented team player. Constantly learning and improving my skills in writing clean, readable and efficient code using SOLID and DRY principles.                </div>
                 <ul className={classes.aboutList}>
                     <li><span>Birthday</span> : <span>October 24, 1990</span></li>
                     <li><span>Phone</span> : <span>+1 506-235-5417</span></li>

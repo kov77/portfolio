@@ -7,15 +7,39 @@ import {AiFillInstagram} from "react-icons/ai"
 import {BsLinkedin} from "react-icons/bs"
 import {BsFillTelephoneFill} from "react-icons/bs"
 import {FaMapMarkerAlt} from "react-icons/fa"
+import emailjs from '@emailjs/browser';
+import {useEffect} from "react";
 
 
 export const Contact = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_7994wu8', 'template_qlfyhmq', e.target, 'ACtVTwxHceZH1HY1y')
+            .then(
+                response =>
+            {
+                document.getElementById("contact-form").reset()
+                document.getElementById("modal").style.display = 'flex'
+                document.querySelector('body').style.overflow = "hidden"
+            },
+                error =>
+                {console.log(error)})
+    }
+
+
+    const closeModal = () => {
+        document.getElementById("modal").style.display = 'none'
+        document.querySelector('body').style.overflow = "auto"
+    }
+
+
     return <section id={"contact"} className={classes.ContactWrp}>
         <SectionTitle title={"Contact Me"}/>
         <div className={classes.container}>
             <div className={classes.formBlock}>
                 <h3 className={classes.header}>Just say Hello</h3>
-                <form className={classes.form} action="#" method={"POST"} id={"contact-form"}>
+                <form className={classes.form} action="#" method={"POST"} id={"contact-form"} onSubmit={sendEmail}>
                     <div className={classes.formElem}><input type="text" id={"name"} name={"name"}
                                                              placeholder={"Your Name"} required/></div>
                     <div className={classes.formElem}><input type="text" id={"email"} name={"email"}
@@ -90,6 +114,12 @@ export const Contact = () => {
                     </div>
                 </div>
             </div>
+
+        </div>
+        <div id="modal" className={classes.modal} >
+            <div className={classes.close} onClick={closeModal}>x</div>
+            <p className={classes.modalText}>Thank you for your beautiful message</p>
+            <Button text={'You are welcome'} onClick={closeModal}/>
         </div>
         <div className={classes.privacy}>© 2022. Developed by Maksym Koval. All right reserved.</div>
     </section>
