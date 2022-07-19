@@ -3,6 +3,8 @@ import mainPhoto from "../../assets/images/secondPhoto2.jpg"
 import {Button} from "../Button/Button";
 import {BsFacebook, BsLinkedin} from "react-icons/bs";
 import {AiFillInstagram} from "react-icons/ai";
+import { NavHashLink as Link } from 'react-router-hash-link';
+
 
 export const MainSection = () => {
     return <section id={"main"} className={classes.mainSection}>
@@ -15,7 +17,7 @@ export const MainSection = () => {
                     <h3 className={classes.hello}>Hello, I'm</h3>
                     <h1 className={classes.name}>Maksym <br/>Koval</h1>
                     <div className={classes.jobtitle}>Front-End Developer</div>
-                    <Button text={'Contact Me'} />
+                    <Link style={{"textDecoration": "none"}} to="/#contact"><Button text={'Contact Me'} /></Link>
                     <div className={classes.socialInfo2}>
                         <div className={classes.socialLinks2}>
                             <a className={classes.socialLink2} href="https://www.facebook.com/maksim.koval.77/">

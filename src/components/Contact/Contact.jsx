@@ -8,7 +8,6 @@ import {BsLinkedin} from "react-icons/bs"
 import {BsFillTelephoneFill} from "react-icons/bs"
 import {FaMapMarkerAlt} from "react-icons/fa"
 import emailjs from '@emailjs/browser';
-import {useEffect} from "react";
 
 
 export const Contact = () => {
