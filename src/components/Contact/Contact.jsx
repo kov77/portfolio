@@ -70,8 +70,7 @@ export const Contact = () => {
             </div>
             <div className={classes.infoBlock}>
                 <h3 className={classes.header}>Contact Info</h3>
-                <div className={classes.contactText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                    ligula nulla tincidunt id faucibus sed suscipit feugiat
+                <div className={classes.contactText}> Do not hesitate to contact me in any way convenient for you.
                 </div>
                 <div className={classes.infoWrapper}>
                     <div className={classes.info}>

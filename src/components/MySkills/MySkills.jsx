@@ -7,13 +7,11 @@ export const MySkills = () => {
         <SectionTitle title={"My Skills"} />
        <div className={classes.container}>
            <div className={classes.textBlock}>
-               <h2 className={classes.header}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+               <h2 className={classes.header}>Programming skills acquired during studying and developing a web application</h2>
                <div className={classes.text}>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorum natus nulla quo rem.
-                   <br/>
-                   <br/>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cupiditate eum rerum tenetur. Accusamus adipisci dolorem minus ratione repellendus sunt.
-               </div>
+                   I acquired most of the skills while developing a social network application.                   <br/> <br/>
+
+                   I like to learn new technologies that allow me to solve new problems while working. I love new challenges that make me stronger.               </div>
            </div>
            <div className={classes.skillsWrp}>
                <div className={classes.progressbar}>
