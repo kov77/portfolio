@@ -2,6 +2,8 @@ import classes from './About.module.css'
 import {SectionTitle} from "../SectionTitle/SectionTitle";
 import {Button} from "../Button/Button";
 import secondPhoto from "../../assets/images/main_photo4.jpg"
+import resume from "../../assets/Web_Developer_Resume.pdf"
+// import {Link} from "react-router-dom"
 
 export const About = () => {
     return <section id={"about"} className={classes.aboutWrp}>
@@ -23,7 +25,7 @@ export const About = () => {
                     <li><span>Language</span> : <span>English, Czech, Ukranian</span></li>
                     <li><span>Freelance</span> : <span>Available</span></li>
                 </ul>
-                <Button text={'Download CV'} />
+                <a style={{"textDecoration" : "none"}} href={resume} download><Button text={'Download CV'} /></a>
             </div>
         </div>
     </section>

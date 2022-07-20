@@ -1,6 +1,7 @@
 .mainSection {
     box-sizing: border-box;
-    height: calc(100vh - 80px);
+    /*height: calc(100vh - 80px);*/
+    height: 100vh;
     width: 100%;
 }
 
@@ -303,12 +304,13 @@
 
 @media screen and (max-width: 1439px){
     .mainSection {
-        min-height: 620px;
+        min-height: 700px;
     }
     .stars {min-height: 700px;}
     .twinkling{min-height: 700px;}
     .clouds{min-height: 700px;}
     .container {
+        padding-top: 70px;
         width: 100%;
         justify-content: space-around;
     }
@@ -348,7 +350,10 @@
 
 @media screen and (max-width: 1023px){
     .mainSection {
-        min-height: 600px;
+        min-height: 680px;
+    }
+    .container {
+        margin-top: 100px;
     }
     .stars {min-height: 680px;}
     .twinkling{min-height: 680px;}
@@ -379,7 +384,11 @@
 
 @media screen and (max-width: 767px){
     .mainSection {
-        min-height: 500px;
+        min-height: 580px;
+    }
+    .container {
+        padding: 15px;
+        margin-top: 80px;
     }
     .stars {min-height: 580px;}
     .twinkling{min-height: 580px;}
@@ -408,9 +417,7 @@
 }
 
 @media screen and (max-width: 374px) {
-    .container {
-        padding: 15px;
-    }
+
     .hello {
         font-size: 22px;
     }

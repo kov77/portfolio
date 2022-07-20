@@ -26,7 +26,7 @@ export const MainSection = () => {
                             <a className={classes.socialLink2} href="https://www.instagram.com/_max.koval/">
                                 <span className={classes.socialIconWrp2}><AiFillInstagram className={classes.socialIcon2}/></span>
                             </a>
-                            <a className={classes.socialLink2} href="https://www.linkedin.com/company/linkedin">
+                            <a className={classes.socialLink2} href="https://www.linkedin.com/in/maksym-koval-561043246/">
                                 <span className={classes.socialIconWrp2}><BsLinkedin className={classes.socialIcon2}/></span>
                             </a>
                         </div>
@@ -43,7 +43,7 @@ export const MainSection = () => {
                                 <span className={classes.socialIconWrp}><AiFillInstagram className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>Instagram</span>
                             </a>
-                            <a className={classes.socialLink} target={"_blank"} href="https://www.linkedin.com/company/linkedin">
+                            <a className={classes.socialLink} target={"_blank"} href="https://www.linkedin.com/in/maksym-koval-561043246/">
                                 <span className={classes.socialIconWrp}><BsLinkedin className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>LinkedIn</span>
                             </a>

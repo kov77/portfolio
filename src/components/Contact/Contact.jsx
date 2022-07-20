@@ -104,7 +104,7 @@ export const Contact = () => {
                                 <span className={classes.socialIconWrp}><AiFillInstagram className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>Instagram</span>
                             </a>
-                            <a className={classes.socialLink} href="https://www.linkedin.com/company/linkedin">
+                            <a className={classes.socialLink} href="https://www.linkedin.com/in/maksym-koval-561043246/">
                                 <span className={classes.socialIconWrp}><BsLinkedin className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>LinkedIn</span>
                             </a>
