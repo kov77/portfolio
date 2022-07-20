@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c3a82210.css",
-    "main.js": "/portfolio/static/js/main.977a3b37.js",
+    "main.css": "/portfolio/static/css/main.654ca37e.css",
+    "main.js": "/portfolio/static/js/main.3528c073.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.94967e8a900fb0c3ca34.png",
     "static/media/portfolio4.png": "/portfolio/static/media/portfolio4.597dfb8c9a679c7ac85a.png",
@@ -13,14 +13,15 @@
     "static/media/secondPhoto2.jpg": "/portfolio/static/media/secondPhoto2.d2c94bc67ac24212ae84.jpg",
     "static/media/main_photo4.jpg": "/portfolio/static/media/main_photo4.aeb595a774fc39c6eac1.jpg",
     "static/media/portfolio6.png": "/portfolio/static/media/portfolio6.7a923f994021e58c0a95.png",
+    "static/media/Web_Developer_Resume.pdf": "/portfolio/static/media/Web_Developer_Resume.85383da9973cfc7353ce.pdf",
     "static/media/phone-icon.png": "/portfolio/static/media/phone-icon.f4f0ea46d9709c83e627.png",
     "index.html": "/portfolio/index.html",
-    "main.c3a82210.css.map": "/portfolio/static/css/main.c3a82210.css.map",
-    "main.977a3b37.js.map": "/portfolio/static/js/main.977a3b37.js.map",
+    "main.654ca37e.css.map": "/portfolio/static/css/main.654ca37e.css.map",
+    "main.3528c073.js.map": "/portfolio/static/js/main.3528c073.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3a82210.css",
-    "static/js/main.977a3b37.js"
+    "static/css/main.654ca37e.css",
+    "static/js/main.3528c073.js"
   ]
 }
