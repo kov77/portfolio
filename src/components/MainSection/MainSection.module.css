@@ -383,16 +383,11 @@
 }
 
 @media screen and (max-width: 767px){
-    .mainSection {
-        min-height: 580px;
-    }
     .container {
         padding: 15px;
         margin-top: 80px;
     }
-    .stars {min-height: 580px;}
-    .twinkling{min-height: 580px;}
-    .clouds{min-height: 580px;}
+
     .container {
         margin-top: 120px;
     }
