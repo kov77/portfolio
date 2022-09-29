@@ -9,8 +9,6 @@ import {Portfolio} from "./components/Portfolio/Portfolio";
 import {Contact} from "./components/Contact/Contact";
 import {BrowserRouter} from "react-router-dom";
 
-
-
 function App() {
     return (
         <div className="App">

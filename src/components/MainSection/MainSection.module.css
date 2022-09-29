@@ -1,17 +1,13 @@
 .mainSection {
-    box-sizing: border-box;
-    /*height: calc(100vh - 80px);*/
-    height: 100vh;
     width: 100%;
+    position: relative;
 }
 
 .container {
-    padding-top: 200px;
-    height: calc(100vh - 80px);
-    width: 1140px;
+    padding-top: 10%;
     z-index: 200;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
 }
 
@@ -53,18 +49,12 @@
 .mainPhotoWrp {
     display: flex;
     position: relative;
-    height: 700px;
     z-index: 100;
     transform: translate(107px, -120px);
     opacity: 0.9;
 
 }
 
-.mainPhotoWrp > img {
-    /*width: 510px;*/
-    /*height: 550px;*/
-
-}
 
 .mainSocial {
     position: absolute;
@@ -72,14 +62,14 @@
     border: 1px solid #232935;
     border-right: 0;
     border-radius: 50px 0 0 50px;
-    height: 60px;
-    width: 280px;
+    height: 11%;
+    width: 55%;
     display: flex;
     align-items: center;
-    bottom: 30px;
+    bottom: 0;
     padding-left: 12px;
     z-index: 150;
-    left: -293px;
+    left: -280px;
 }
 
 .socialLinks {
@@ -168,6 +158,7 @@
     position: absolute;
     bottom: 20px;
     margin: 30px;
+    z-index: 1000;
 }
 .arrowDown span {
     display: block;
@@ -231,14 +222,11 @@
     right: 0;
     bottom: 0;
     width: 100%;
-    height: 100%;
-    display: block;
 }
 
 .stars {
     background: #000 url('../../assets/images/starsSky/stars.png') repeat top center;
     z-index: 0;
-    min-height: 948px;
 
 }
 
@@ -246,8 +234,6 @@
     background: transparent url('../../assets/images/starsSky/twinkling.png') repeat top center;
     z-index: 1;
     animation: move-twink-back 200s linear infinite;
-    min-height: 948px;
-
 }
 
 .clouds {
@@ -256,7 +242,6 @@
     animation: move-clouds-back 200s linear infinite;
     display: flex;
     justify-content: center;
-    min-height: 948px;
 }
 .socialLinks2 {
     display: flex;
@@ -304,15 +289,14 @@
 
 @media screen and (max-width: 1439px){
     .mainSection {
-        min-height: 700px;
+        min-height: 680px;
     }
-    .stars {min-height: 700px;}
-    .twinkling{min-height: 700px;}
-    .clouds{min-height: 700px;}
+    /*.stars {min-height: 700px;}*/
+    /*.twinkling{min-height: 700px;}*/
+    /*.clouds{min-height: 700px;}*/
     .container {
         padding-top: 70px;
         width: 100%;
-        justify-content: space-around;
     }
     .hello {
         font-size: 30px;
@@ -348,19 +332,19 @@
 
 }
 
+.buttonLink {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1023px){
-    .mainSection {
-        min-height: 680px;
-    }
+
     .container {
         margin-top: 100px;
     }
-    .stars {min-height: 680px;}
-    .twinkling{min-height: 680px;}
-    .clouds{min-height: 680px;}
-    .container {
-        justify-content: space-around;
-    }
+    /*.stars {min-height: 680px;}*/
+    /*.twinkling{min-height: 680px;}*/
+    /*.clouds{min-height: 680px;}*/
+
     .hello {
         font-size: 25px;
     }
@@ -409,6 +393,11 @@
     .socialInfo2 {
         align-items: center;
     }
+
+    .buttonLink {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 374px) {
@@ -419,6 +408,17 @@
     .name {
         font-size: 50px;
     }
+
+
+}
+
+@media screen and (max-width: 280px) {
+    /*.mainSection {*/
+    /*    min-height: 470px;*/
+    /*}*/
+    /*.stars {min-height: 470px;}*/
+    /*.twinkling{min-height: 470px;}*/
+    /*.clouds{min-height: 470px;}*/
 
 
 }

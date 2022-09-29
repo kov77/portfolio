@@ -204,6 +204,7 @@
         background-color: black;
         color: white;
     }
+
     .menuToggle:checked ~ .menuBtn > span {
         background-color: black;
         transform: rotate(45deg);
