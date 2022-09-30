@@ -8,9 +8,11 @@ import {Resume} from "./components/Resume/Resume";
 import {Portfolio} from "./components/Portfolio/Portfolio";
 import {Contact} from "./components/Contact/Contact";
 import {BrowserRouter} from "react-router-dom";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
     return (
+        <ParallaxProvider>
         <div className="App">
             <BrowserRouter>
                 <Header/>
@@ -23,6 +25,7 @@ function App() {
                 <Contact />
             </BrowserRouter>
         </div>
+        </ParallaxProvider>
     );
 }
 

@@ -16,14 +16,31 @@
 }
 
 .hello {
+    position: relative;
+    animation-name: mainSectionText;
+    animation-duration: 1200ms;
+    animation-timing-function: linear;
     font-family: "Roboto";
     font-size: 34px;
     font-weight: 300;
     color: #fec544;
     margin-bottom: 10px;
+    left: 0
+}
+
+
+@keyframes mainSectionText {
+    0% {
+        left: -1000px;
+    }
+    100% {
+        left: 0;
+        animation-name: none
+    }
 }
 
 .name {
+    position: relative;
     margin: 0;
     font-family: "Montserrat";
     font-size: 120px;
@@ -31,7 +48,14 @@
     font-weight: 750;
     color: #fdfeff;
     line-height: 1;
+    animation-name: mainSectionText;
+    animation-duration: 1200ms;
+    animation-timing-function: revert;
+    animation-delay: 1200ms;
+    animation-fill-mode: forwards;
+    left: -1000px;
 }
+
 
 .jobtitle {
     font-family: "Roboto";
@@ -119,7 +143,7 @@
     padding-right: 15px;
 }
 
-.socialLink:hover > .socialIconWrp > *{
+.socialLink:hover > .socialIconWrp > * {
     color: #FDC544;
 }
 
@@ -150,7 +174,7 @@
     visibility: hidden;
 }
 
-.socialLink:hover  .socialIconName {
+.socialLink:hover .socialIconName {
     visibility: visible;
 }
 
@@ -160,6 +184,7 @@
     margin: 30px;
     z-index: 1000;
 }
+
 .arrowDown span {
     display: block;
     width: 25px;
@@ -170,26 +195,28 @@
     margin: -16px;
     animation: arrowDown 2s infinite;
 }
-.arrowDown span:nth-child(2){
+
+.arrowDown span:nth-child(2) {
     animation-delay: -0.2s;
 }
-.arrowDown span:nth-child(3){
+
+.arrowDown span:nth-child(3) {
     animation-delay: -0.4s;
 }
+
 @keyframes arrowDown {
-    0%{
+    0% {
         opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
+        transform: rotate(45deg) translate(-20px, -20px);
     }
-    50%{
+    50% {
         opacity: 1;
     }
-    100%{
+    100% {
         opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
+        transform: rotate(45deg) translate(20px, 20px);
     }
 }
-
 
 
 @keyframes move-twink-back {
@@ -214,8 +241,7 @@
 }
 
 
-
-.stars,.twinkling,.clouds {
+.stars, .twinkling, .clouds {
     position: absolute;
     top: 0;
     left: 0;
@@ -243,6 +269,7 @@
     display: flex;
     justify-content: center;
 }
+
 .socialLinks2 {
     display: flex;
 }
@@ -268,7 +295,7 @@
 
 }
 
-.socialIcon2{
+.socialIcon2 {
     color: #FDC544;
     font-size: 30px;
 }
@@ -287,10 +314,11 @@
     margin: 0 10px 0 10px;
 }
 
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 1439px) {
     .mainSection {
         min-height: 680px;
     }
+
     /*.stars {min-height: 700px;}*/
     /*.twinkling{min-height: 700px;}*/
     /*.clouds{min-height: 700px;}*/
@@ -298,24 +326,30 @@
         padding-top: 70px;
         width: 100%;
     }
+
     .hello {
         font-size: 30px;
     }
+
     .name {
         font-size: 90px;
     }
+
     .jobtitle {
         font-size: 28px;
     }
+
     .mainPhotoWrp {
         height: 420px;
         transform: translateY(-100px);
     }
+
     .mainSocial {
         height: 45px;
         width: 230px;
         left: -230px;
     }
+
     .socialSubtitle {
         height: 20px;
         width: 100px;
@@ -336,37 +370,42 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) {
 
     .container {
         margin-top: 100px;
     }
+
     /*.stars {min-height: 680px;}*/
     /*.twinkling{min-height: 680px;}*/
     /*.clouds{min-height: 680px;}*/
-
     .hello {
         font-size: 25px;
     }
+
     .name {
         font-size: 70px;
     }
+
     .jobtitle {
         font-size: 24px;
     }
+
     .mainPhotoWrp {
         height: 360px;
         transform: translateY(-100px);
     }
+
     .mainSocial {
         display: none;
     }
+
     .socialInfo2 {
         display: flex;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .container {
         padding: 15px;
         margin-top: 80px;
@@ -375,9 +414,11 @@
     .container {
         margin-top: 120px;
     }
+
     .hello {
         font-size: 25px;
     }
+
     .mainPhotoWrp {
         display: none;
     }
@@ -390,6 +431,7 @@
         display: block;
         margin: 0 auto;
     }
+
     .socialInfo2 {
         align-items: center;
     }
@@ -405,6 +447,7 @@
     .hello {
         font-size: 22px;
     }
+
     .name {
         font-size: 50px;
     }

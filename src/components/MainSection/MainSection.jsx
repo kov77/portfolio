@@ -5,18 +5,23 @@ import {BsFacebook, BsLinkedin} from "react-icons/bs";
 import {AiFillInstagram} from "react-icons/ai";
 import {NavHashLink as Link} from 'react-router-hash-link';
 import ReactTypingEffect from 'react-typing-effect';
-
+import { useParallax } from 'react-scroll-parallax';
+import {Animated} from "react-animated-css";
 
 export const MainSection = () => {
+    const { ref } = useParallax({ speed: 8 });
+
     return <section id={"main"} className={classes.mainSection}>
         <div className={classes.stars}></div>
         <div className={classes.twinkling}></div>
         <div className={classes.clouds}></div>
         <div className={classes.container}>
-            <div className={classes.mainSectionDescr}>
-                <h3 className={classes.hello}>Hello, I'm</h3>
+            <div ref={ref} className={classes.mainSectionDescr}>
+                <Animated animationIn="slideInLeft" isVisible={true}>
+                        <h3 className={classes.hello}>Hello, I'm</h3>
+                </Animated>
                 <h1 className={classes.name}>Maksym <br/>Koval</h1>
-                <div className={classes.jobtitle}><ReactTypingEffect text={["Front-End Developer"]} typingDelay={800} speed={130} eraseDelay={5000}></ReactTypingEffect></div>
+                <div className={classes.jobtitle}><ReactTypingEffect text={["Front-End Developer"]} typingDelay={1500} speed={130} eraseDelay={5000}></ReactTypingEffect></div>
                 <Link className={classes.buttonLink} to="/#contact"><Button text={'Contact Me'}/></Link>
                 <div className={classes.socialInfo2}>
                     <div className={classes.socialLinks2}>
@@ -56,13 +61,6 @@ export const MainSection = () => {
                     </div>
                     <h2 className={classes.socialSubtitle}>Social</h2>
                 </div>
-            </div>
-
-
-            <div className={classes.arrowDown}>
-                <span></span>
-                <span></span>
-                <span></span>
             </div>
         </div>
 

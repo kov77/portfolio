@@ -1,11 +1,14 @@
 import classes from './MySkills.module.css'
 import {SectionTitle} from "../SectionTitle/SectionTitle";
+import { useParallax } from 'react-scroll-parallax';
 
 
 export const MySkills = () => {
+    const { ref } = useParallax({ speed: 8 });
+
     return <section id={"skills"} className={classes.mySkillsWrp}>
         <SectionTitle title={"My Skills"} />
-       <div className={classes.container}>
+       <div ref={ref} className={classes.container}>
            <div className={classes.textBlock}>
                <h2 className={classes.header}>Programming skills acquired during studying and developing a web application</h2>
                <div className={classes.text}>
