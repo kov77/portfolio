@@ -7,15 +7,12 @@ import portfolio3 from "../../assets/images/portfolio3.png"
 import portfolio4 from "../../assets/images/portfolio4.png"
 import portfolio5 from "../../assets/images/portfolio5.png"
 import portfolio6 from "../../assets/images/portfolio6.png"
-import {useParallax} from "react-scroll-parallax";
-
 
 export const Portfolio = () => {
-    const { ref } = useParallax({ speed: 8 });
 
     return <section id="portfolio" className={classes.portfolioWrp}>
         <SectionTitle title={"Portfolio"} />
-       <div ref={ref} className={classes.container}>
+       <div className={classes.container}>
         <Project img={portfolio1} title={'WP Plugin'} subtitle={"Childhood"} link={'https://github.com/kov77/gifts_wp'}/>
         <Project img={portfolio2} title={'Website'} subtitle={"Uber"} link={'https://github.com/kov77/Uber'}/>
         <Project img={portfolio3} title={'Website'} subtitle={"Irvas windows"} link={'https://github.com/kov77/IRVAS-windows'}/>

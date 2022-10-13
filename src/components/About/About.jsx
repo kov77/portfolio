@@ -3,14 +3,11 @@ import {SectionTitle} from "../SectionTitle/SectionTitle";
 import {Button} from "../Button/Button";
 import secondPhoto from "../../assets/images/main_photo4.jpg"
 import resume from "../../assets/Web_Developer_Resume.pdf"
-import { useParallax } from 'react-scroll-parallax';
 
 export const About = () => {
-    const { ref} = useParallax({ speed: 6 });
-
     return <section id={"about"} className={classes.aboutWrp}>
         <SectionTitle title={"About Me"}/>
-        <div ref={ref} className={classes.container}>
+        <div className={classes.container}>
             <div className={classes.aboutPhoto}><img src={secondPhoto} alt="second-foto"/></div>
             <div className={classes.aboutInfoBlock}>
                 <div  className={classes.aboutTextWrp}>

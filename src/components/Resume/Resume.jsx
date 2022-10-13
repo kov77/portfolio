@@ -3,15 +3,12 @@ import {SectionTitle} from "../SectionTitle/SectionTitle";
 import {Element} from "./Element/Element";
 import expIcon from "./../../assets/images/icons/resume-icon1.png"
 import edIcon from "./../../assets/images/icons/resume-icon2.png"
-import {useParallax} from "react-scroll-parallax";
 
 
 export const Resume = () => {
-    const { ref } = useParallax({ speed: 8 });
-
     return <section className={classes.resumeWrp}>
         <SectionTitle title={"Resume"}/>
-        <div ref={ref} className={classes.container}>
+        <div className={classes.container}>
             <div className={classes.resumeBlock}>
                 <div className={classes.headingWpr}>
                     <img className={classes.icon} src={expIcon} alt="icon"/>

@@ -5,18 +5,16 @@ import {BsFacebook, BsLinkedin} from "react-icons/bs";
 import {AiFillInstagram} from "react-icons/ai";
 import {NavHashLink as Link} from 'react-router-hash-link';
 import ReactTypingEffect from 'react-typing-effect';
-import { useParallax } from 'react-scroll-parallax';
 import {Animated} from "react-animated-css";
 
 export const MainSection = () => {
-    const { ref } = useParallax({ speed: 8 });
 
     return <section id={"main"} className={classes.mainSection}>
         <div className={classes.stars}></div>
         <div className={classes.twinkling}></div>
         <div className={classes.clouds}></div>
         <div className={classes.container}>
-            <div ref={ref} className={classes.mainSectionDescr}>
+            <div className={classes.mainSectionDescr}>
                 <Animated animationIn="slideInLeft" isVisible={true}>
                         <h3 className={classes.hello}>Hello, I'm</h3>
                 </Animated>

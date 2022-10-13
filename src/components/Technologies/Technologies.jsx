@@ -7,14 +7,11 @@ import {SiTypescript} from "react-icons/si"
 import {SiHtml5} from "react-icons/si"
 import {SiCss3} from "react-icons/si"
 import {SiGit} from "react-icons/si"
-import { useParallax } from 'react-scroll-parallax';
 
 export const Technologies = () => {
-    const { ref } = useParallax({ speed: 8 });
-
     return <section id={"technologies"} className={classes.servicesWrp}>
         <SectionTitle title={"Technologies"} />
-       <div ref={ref} className={classes.container}>
+       <div className={classes.container}>
             <Service icon={<FaReact />} header={"React"} desciption={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi deserunt, eaque iste labore"} />
             <Service icon={<SiRedux />} header={"Redux"} desciption={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi deserunt, eaque iste labore"} />
             <Service icon={<SiTypescript />} header={"TypeScript"} desciption={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi deserunt, eaque iste labore"} />
