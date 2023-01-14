@@ -2,7 +2,7 @@ import classes from './About.module.css'
 import {SectionTitle} from "../SectionTitle/SectionTitle";
 import {Button} from "../Button/Button";
 import secondPhoto from "../../assets/images/main_photo4.jpg"
-import resume from "../../assets/Web_Developer_Resume.pdf"
+import resume from "../../assets/Resume_Web-Developer_Maksym_Koval.pdf"
 
 export const About = () => {
     return <section id={"about"} className={classes.aboutWrp}>
