@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kov77.github.io/portfolio",
+  "homepage": "https://kov-portfolio.gbdigital.ca/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -38,7 +38,7 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest"git
     ]
   },
   "browserslist": {
