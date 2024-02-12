@@ -121,7 +121,7 @@
     font-family: "Roboto";
     position: absolute;
     width: 250px;
-    top: 87px;
+    top: 70px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 26px;
@@ -142,7 +142,7 @@
     font-size: 18px;
     position: absolute;
     width: 250px;
-    top: 114px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     font-weight: 500;
@@ -167,13 +167,13 @@
         width: 100%;
         height: 100%;
         margin: 0;
-
     }
 }
 
 @media screen and (max-width: 767px){
     .ProjectWrp {
-        width: 43%;
+        height: 100%;
+        width: 100%;
+        margin: 20px;
     }
-
 }

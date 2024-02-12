@@ -75,8 +75,11 @@
     position: relative;
     z-index: 100;
     transform: translate(107px, -120px);
-    opacity: 0.9;
+    opacity: 1;
+}
 
+.mainPhotoWrp > img {
+    width: 500px;
 }
 
 
@@ -85,15 +88,15 @@
     background-color: #2e3649;
     border: 1px solid #232935;
     border-right: 0;
-    border-radius: 50px 0 0 50px;
+    border-radius: 50px;
     height: 11%;
-    width: 55%;
+    width: 60%;
     display: flex;
     align-items: center;
     bottom: 0;
-    padding-left: 12px;
+    padding: 15px;
     z-index: 150;
-    left: -280px;
+    left: -250px;
 }
 
 .socialLinks {
@@ -106,7 +109,7 @@
     position: absolute;
     height: 60px;
     width: 130px;
-    top: -30px;
+    top: -27px;
     left: 50%;
     transform: translateX(18%);
     font-size: 30px;
@@ -139,7 +142,7 @@
 }
 
 .socialLink:hover {
-    width: 130px;
+    width: 140px;
     padding-right: 15px;
 }
 

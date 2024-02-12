@@ -41,7 +41,7 @@ export const Contact = () => {
                 <form className={classes.form} action="#" method={"POST"} id={"contact-form"} onSubmit={sendEmail}>
                     <div className={classes.formElem}><input type="text" id={"name"} name={"name"}
                                                              placeholder={"Your Name"} required/></div>
-                    <div className={classes.formElem}><input type="text" id={"email"} name={"email"}
+                    <div className={classes.formElem}><input type="email" id={"email"} name={"email"}
                                                              placeholder={"Your Email"} required/></div>
                     <div className={classes.formElem}><input type="text" id={"subject"} name={"subject"}
                                                              placeholder={"Your Subject"} required/></div>
@@ -76,26 +76,30 @@ export const Contact = () => {
                         <div className={classes.icon}><BsEnvelopeFill/></div>
                         <div className={classes.infoDetails}>
                             <h4>Email</h4>
-                            <a href="#">maksym6167@gmail.com</a>
+                            <a href="#">webdev@mkoval.ca</a>
                         </div>
                     </div>
                     <div className={classes.info}>
                         <div className={classes.icon}><BsFillTelephoneFill/></div>
                         <div className={classes.infoDetails}>
                             <h4>Phone</h4>
-                            <span>+1 506-235-5417</span>
+                            <span>+1 438-323-3679</span>
                         </div>
                     </div>
                     <div className={classes.info}>
                         <div className={classes.icon}><FaMapMarkerAlt/></div>
                         <div className={classes.infoDetails}>
                             <h4>Address</h4>
-                            <span>Here will be my office address.</span>
+                            <span>Montreal, QC, Canada, H4P 0C5</span>
                         </div>
                     </div>
                     <div className={classes.socialInfo}>
                         <div className={classes.socialText}>Visite my social profile and get connected</div>
                         <div className={classes.socialLinks}>
+                            <a className={classes.socialLink} href="https://www.linkedin.com/in/maksym-koval-561043246/">
+                                <span className={classes.socialIconWrp}><BsLinkedin className={classes.socialIcon}/></span>
+                                <span className={classes.socialIconName}>LinkedIn</span>
+                            </a>
                             <a className={classes.socialLink} href="https://www.facebook.com/maksim.koval.77/">
                                 <span className={classes.socialIconWrp}><BsFacebook className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>Facebook</span>
@@ -103,10 +107,6 @@ export const Contact = () => {
                             <a className={classes.socialLink} href="https://www.instagram.com/_max.koval/">
                                 <span className={classes.socialIconWrp}><AiFillInstagram className={classes.socialIcon}/></span>
                                 <span className={classes.socialIconName}>Instagram</span>
-                            </a>
-                            <a className={classes.socialLink} href="https://www.linkedin.com/in/maksym-koval-561043246/">
-                                <span className={classes.socialIconWrp}><BsLinkedin className={classes.socialIcon}/></span>
-                                <span className={classes.socialIconName}>LinkedIn</span>
                             </a>
                         </div>
                     </div>
@@ -116,9 +116,10 @@ export const Contact = () => {
         </div>
         <div id="modal" className={classes.modal} >
             <div className={classes.close} onClick={closeModal}>x</div>
-            <p className={classes.modalText}>Thank you for your beautiful message</p>
-            <Button text={'You are welcome'} onClick={closeModal}/>
+            <div><p className={classes.modalHeader}>Thank you for your beautiful message!</p>
+                <p className={classes.modalBody}>I'll contact you as soon as I read this message.</p></div>
+            <Button text={"You're welcome  :)"} onClick={closeModal}/>
         </div>
-        <div className={classes.privacy}>© 2022. Developed by Maksym Koval. All right reserved.</div>
+        <div className={classes.privacy}>© 2024. Developed by Maksym Koval. All right reserved.</div>
     </section>
 }

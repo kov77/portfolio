@@ -17,6 +17,15 @@
     box-sizing: border-box;
 }
 
+.aboutPhoto {
+    padding: 30px 30px 0 0;
+    opacity: 1;
+}
+
+.aboutPhoto > img{
+    width: 400px;
+    height: 500px;
+}
 
 .container {
     width: 1140px;
@@ -76,14 +85,15 @@
     .aboutPhoto {
         width: 40%;
         display: flex;
-        justify-content: start;
-        align-items: start;
-    }
-    .container {
-        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     .aboutPhoto > img{
         width: 400px;
+        height: 500px;
+    }
+    .container {
+        width: 100%;
     }
     .aboutInfoBlock {
         width: 60%;

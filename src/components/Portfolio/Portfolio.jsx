@@ -1,24 +1,22 @@
 import classes from './Portfolio.module.css'
 import {SectionTitle} from "../SectionTitle/SectionTitle";
 import {Project} from "./Project/Project";
-import portfolio1 from "../../assets/images/portfolio1.png"
-import portfolio2 from "../../assets/images/portfolio2.png"
-import portfolio3 from "../../assets/images/portfolio3.png"
-import portfolio4 from "../../assets/images/portfolio4.png"
-import portfolio5 from "../../assets/images/portfolio5.png"
-import portfolio6 from "../../assets/images/portfolio6.png"
+import {Grid, Typography} from "@mui/material";
+import o2 from "../../assets/images/o2.png"
+import upRekrea from "../../assets/images/upRekrea.png"
+import konica from "../../assets/images/konica.png"
+
+
 
 export const Portfolio = () => {
 
     return <section id="portfolio" className={classes.portfolioWrp}>
-        <SectionTitle title={"Portfolio"} />
-       <div className={classes.container}>
-        <Project img={portfolio1} title={'WP Plugin'} subtitle={"Childhood"} link={'https://github.com/kov77/gifts_wp'}/>
-        <Project img={portfolio2} title={'Website'} subtitle={"Uber"} link={'https://github.com/kov77/Uber'}/>
-        <Project img={portfolio3} title={'Website'} subtitle={"Irvas windows"} link={'https://github.com/kov77/IRVAS-windows'}/>
-        <Project img={portfolio4} title={'Website'} subtitle={"RanSmart"} link={'https://github.com/kov77/Pulse'}/>
-        <Project img={portfolio5} title={'App'} subtitle={"Social-Net"} link={'https://github.com/kov77/social_ts'}/>
-        <Project img={portfolio6} title={'App'} subtitle={"Todo List"} link={'https://github.com/kov77/IT-INCUBATOR_Todo-list'}/>
-       </div>
+        <SectionTitle title={"Portfolio"}/>
+        <Typography sx={{padding: '0 20px', textAlign: ' center'}} variant={'h5'}>Take a look at the last few projects I've worked on</Typography>
+        <Grid className={classes.container}>
+            <Project img={o2} title={'O2-Eshop'} subtitle={"Online store of cell phones and accessories"} link={'https://www.o2.cz/telefony-a-zarizeni/'}/>
+            <Project img={upRekrea} title={'UpRekrea'} subtitle={"Web application for managing employee benefits"} link={'https://rekrea.sk'}/>
+            <Project img={konica} title={'Konica Minolta'} subtitle={"Online store for printers and accessories"} link={'https://www.konicaminolta.eu/eu-en'}/>
+        </Grid>
     </section>
 }

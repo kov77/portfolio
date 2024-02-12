@@ -86,39 +86,39 @@
     background-color: #3f4551;
 }
 
+.progressbarPercentageTs {
+    width: 90%;
+    background-color: #fec544;
+    height: 2px;
+}
+
 .progressbarPercentageReact {
+    width: 90%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageNodeJs {
+    width: 70%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageWordpress {
+    width: 80%;
+    background-color: #fec544;
+    height: 2px;
+}
+.progressbarPercentageShopify {
     width: 85%;
     background-color: #fec544;
     height: 2px;
 }
-.progressbarPercentageRedax {
-    width: 80%;
-    background-color: #fec544;
-    height: 2px;
-}
-.progressbarPercentageJs {
-    width: 80%;
-    background-color: #fec544;
-    height: 2px;
-}
-.progressbarPercentageHtml {
-    width: 75%;
-    background-color: #fec544;
-    height: 2px;
-}
-.progressbarPercentageCss {
-    width: 75%;
+.progressbarPercentageRedux {
+    width: 90%;
     background-color: #fec544;
     height: 2px;
 }
 .progressbarPercentageGit {
     width: 85%;
-    background-color: #fec544;
-    height: 2px;
-}
-
-.progressbarPercentageTs {
-    width: 75%;
     background-color: #fec544;
     height: 2px;
 }

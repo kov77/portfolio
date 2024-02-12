@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
     font-weight: 500;
-    padding: 12px 1.5em;
+    padding: 12px 16px;
     border-radius: 50px;
     min-width: 170px;
     border: none;
@@ -16,5 +16,10 @@
     transition: all 0.4s ease;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2e3649;
+    color: #e5ac2a;
 }
 

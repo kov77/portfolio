@@ -6,17 +6,30 @@ export const MySkills = () => {
         <SectionTitle title={"My Skills"} />
        <div className={classes.container}>
            <div className={classes.textBlock}>
-               <h2 className={classes.header}>Programming skills acquired during studying and developing a web application</h2>
+               <h2 className={classes.header}>Skills obtained through continuous learning and more than 5 years of experience.</h2>
                <div className={classes.text}>
-                   I acquired most of the skills while developing a social network application.                   <br/> <br/>
-
-                   I like to learn new technologies that allow me to solve new problems while working. I love new challenges that make me stronger.               </div>
+                   Working on 14 different projects in
+                   marketing, logistics, finance I gained experience in building applications using different
+                   modern frontend technologies                   <br/> <br/>
+                   Using my skills I can build websites and applications of different complexities and sizes.
+                   <br/><br/>I can find the right solution for every customer based on budget and needs.
+               </div>
            </div>
            <div className={classes.skillsWrp}>
                <div className={classes.progressbar}>
                    <div className={classes.progressbarHeader}>
+                       <h3 className={classes.progressbarTitle}>TypeScript</h3>
+                       <div className={classes.progressbarPercentage}>90%
+                       </div>
+                   </div>
+                   <div className={classes.progressbarSt}>
+                       <div className={classes.progressbarPercentageTs}></div>
+                   </div>
+               </div>
+               <div className={classes.progressbar}>
+                   <div className={classes.progressbarHeader}>
                        <h3 className={classes.progressbarTitle}>React</h3>
-                       <div className={classes.progressbarPercentage}>85%
+                       <div className={classes.progressbarPercentage}>90%
                        </div>
                    </div>
                    <div className={classes.progressbarSt}>
@@ -26,51 +39,41 @@ export const MySkills = () => {
                <div className={classes.progressbar}>
                    <div className={classes.progressbarHeader}>
                        <h3 className={classes.progressbarTitle}>Redux</h3>
+                       <div className={classes.progressbarPercentage}>90%
+                       </div>
+                   </div>
+                   <div className={classes.progressbarSt}>
+                       <div className={classes.progressbarPercentageRedux}></div>
+                   </div>
+               </div>
+               <div className={classes.progressbar}>
+                   <div className={classes.progressbarHeader}>
+                       <h3 className={classes.progressbarTitle}>NodeJs</h3>
+                       <div className={classes.progressbarPercentage}>70%
+                       </div>
+                   </div>
+                   <div className={classes.progressbarSt}>
+                       <div className={classes.progressbarPercentageNodeJs}></div>
+                   </div>
+               </div>
+               <div className={classes.progressbar}>
+                   <div className={classes.progressbarHeader}>
+                       <h3 className={classes.progressbarTitle}>WordPress</h3>
                        <div className={classes.progressbarPercentage}>80%
                        </div>
                    </div>
                    <div className={classes.progressbarSt}>
-                       <div className={classes.progressbarPercentageRedax}></div>
+                       <div className={classes.progressbarPercentageWordpress}></div>
                    </div>
                </div>
                <div className={classes.progressbar}>
                    <div className={classes.progressbarHeader}>
-                       <h3 className={classes.progressbarTitle}>TypeScript</h3>
-                       <div className={classes.progressbarPercentage}>75%
+                       <h3 className={classes.progressbarTitle}>Shopify</h3>
+                       <div className={classes.progressbarPercentage}>85%
                        </div>
                    </div>
                    <div className={classes.progressbarSt}>
-                       <div className={classes.progressbarPercentageTs}></div>
-                   </div>
-               </div>
-               <div className={classes.progressbar}>
-                   <div className={classes.progressbarHeader}>
-                       <h3 className={classes.progressbarTitle}>JavaScript</h3>
-                       <div className={classes.progressbarPercentage}>80%
-                       </div>
-                   </div>
-                   <div className={classes.progressbarSt}>
-                       <div className={classes.progressbarPercentageJs}></div>
-                   </div>
-               </div>
-               <div className={classes.progressbar}>
-                   <div className={classes.progressbarHeader}>
-                       <h3 className={classes.progressbarTitle}>HTML5</h3>
-                       <div className={classes.progressbarPercentage}>75%
-                       </div>
-                   </div>
-                   <div className={classes.progressbarSt}>
-                       <div className={classes.progressbarPercentageHtml}></div>
-                   </div>
-               </div>
-               <div className={classes.progressbar}>
-                   <div className={classes.progressbarHeader}>
-                       <h3 className={classes.progressbarTitle}>CSS3</h3>
-                       <div className={classes.progressbarPercentage}>75%
-                       </div>
-                   </div>
-                   <div className={classes.progressbarSt}>
-                       <div className={classes.progressbarPercentageCss}></div>
+                       <div className={classes.progressbarPercentageShopify}></div>
                    </div>
                </div>
                <div className={classes.progressbar}>

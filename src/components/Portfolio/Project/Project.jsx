@@ -1,5 +1,4 @@
 import classes from './Project.module.css'
-import { BsPlusCircleFill } from 'react-icons/bs'
 
 export const Project = (props) => {
     return <div className={classes.ProjectWrp}>
@@ -16,3 +15,31 @@ export const Project = (props) => {
         </a>
     </div>
 }
+
+// const StyledStack = styled(Stack)({
+//     backgroundImage: `url(${frame})`,
+//     backgroundPosition: 'center center',
+//     backgroundSize: 'cover',
+//     backgroundRepeat: 'no-repeat',
+//     width: '30%',
+//     minHeight: '350px',
+//     position: 'relative',
+//     display: "flex",
+//     justifyContent: 'center'
+// })
+// const StyledCartMedia = styled("video")({
+//     width: '278px',
+//     minHeight: '180px',
+//     position: 'absolute',
+//     top: '77px',
+//     left: '28px',
+//     borderRadius: '2px'
+// })
+// export const Project = ({path}) => {
+//     return <StyledStack>
+//             <StyledCartMedia
+//                 src={path}
+//                 loop autoPlay muted
+//             />
+//     </StyledStack>
+// }

@@ -92,7 +92,6 @@
 
 .navDevider {
     color: white;
-
 }
 
 .phoneWrap {
@@ -114,6 +113,10 @@
     text-decoration: none;
     color: #FDC544;
     font-weight: bold;
+}
+
+.buttonLink > button {
+    padding: 0.4rem 0;
 }
 
 .menuToggle {
