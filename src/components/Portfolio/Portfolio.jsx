@@ -16,7 +16,7 @@ export const Portfolio = () => {
         <Grid className={classes.container}>
             <Project img={o2} title={'O2-Eshop'} subtitle={"Online store of cell phones and accessories"} link={'https://www.o2.cz/telefony-a-zarizeni/'}/>
             <Project img={upRekrea} title={'UpRekrea'} subtitle={"Web application for managing employee benefits"} link={'https://rekrea.sk'}/>
-            <Project img={konica} title={'Konica Minolta'} subtitle={"Online store for printers and accessories"} link={'https://www.konicaminolta.eu/eu-en'}/>
+            <Project img={konica} title={'Konica Minolta'} subtitle={"Online store for printers and accessories"} link={'https://www.konicaminolta.be/shop'}/>
         </Grid>
     </section>
 }

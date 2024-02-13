@@ -79,7 +79,7 @@
 }
 
 .mainPhotoWrp > img {
-    width: 500px;
+    max-width: 500px;
 }
 
 
@@ -326,7 +326,7 @@
     /*.twinkling{min-height: 700px;}*/
     /*.clouds{min-height: 700px;}*/
     .container {
-        padding-top: 70px;
+        padding-top: 170px;
         width: 100%;
     }
 
@@ -350,7 +350,7 @@
     .mainSocial {
         height: 45px;
         width: 230px;
-        left: -230px;
+        left: -190px;
     }
 
     .socialSubtitle {
@@ -374,11 +374,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-
-    .container {
-        margin-top: 100px;
-    }
-
     /*.stars {min-height: 680px;}*/
     /*.twinkling{min-height: 680px;}*/
     /*.clouds{min-height: 680px;}*/
